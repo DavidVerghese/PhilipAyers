@@ -1,0 +1,84 @@
+/* 
+Theme Name: Philip Ayers
+Author: David Verghese  
+*/
+
+body {
+  background: #f3f6f3;
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+
+    color: #2d180a;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 100%;
+}
+
+img {
+  margin: 10px;
+}
+
+
+.most-viewed img {
+  width: 128px;
+} 
+.homepage {
+  width: 460px;
+}
+.website-title {
+  display: flex;
+  align-items: center;
+  width: 103%;
+  margin-left:10px;
+}
+.website-title a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+.hamburger-menu {
+  margin-left: auto;
+  margin-right: 0px;
+}
+.hamburger-menu hr {
+  background-color: #a14137;
+  width: 27px;
+  height: 3px;
+  margin: 4px;
+}
+
+.title {
+  font-size: 1em; 
+}
+.paintinginfo-sub {
+  color: #999;
+}
+.copyright {
+  color: #ccc;
+}
+.nav {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.nav-link a {
+  padding: 5px;
+  border-radius: 15px;
+  color: #a14137;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.featured-image {
+  width: 100%;
+}
+.featured-image img {
+  padding: 15px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
