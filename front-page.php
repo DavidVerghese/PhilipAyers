@@ -1,30 +1,26 @@
 <?php get_header();?>
 
+
+
 <div class="homepage">
-<div class="website-title">
-  <h1>
-    <a href="/">Philip Ayers</a>
-  </h1>
-  <div class="hamburger-menu">
-    <hr>
-    <hr>
-    <hr>
-  </div>
-</div>
+
+
 
 <div class="picture">
 
-<div class="attachment">
-</div>
+
 <div class="featured-image">
-  <!-- <img src="https://www.philipayers.com/previews/71-woods.jpg"/> -->
+  
 </div>
 
-<p>
-  <b> <span class="title">On The Metro North</span></b>
-</p>
-<em><p class="paintinginfo-sub">Oil on Wooden Panel, 36 x 24 in.</p></em>
+<?php if (have_posts()) : while(have_posts()) : the_post();?>
+    <?php the_content();?>
+    <b><p className="title">On The Metro North </p></b>
+<i><p className="paintinginfo-sub">Oil on Wooden Panel, 36 x 24 in.</p></i>
 <p>Most Viewed</p>
+
+<?php endwhile; endif; ?>
+
 <div class="most-viewed">
 </div>
 </div>

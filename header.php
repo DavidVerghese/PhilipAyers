@@ -5,4 +5,28 @@
   <?php wp_head();?>
   
 </head>
-<body <?php body_class();?>>
+
+<header>
+
+<div class="website-title">
+  <h1>
+    <a href="/wp-demo-tuts">Philip Ayers</a>
+  </h1>
+  <div class="hamburger-menu">
+    <hr>
+    <hr>
+    <hr>
+  </div>
+</div>
+<div class="attachment">
+</div>
+
+  <?php wp_nav_menu (
+    array(
+      'theme_location' => 'top-menu'
+    )
+  );?>
+</header>
+
+<body <?php body_class();?>
+
