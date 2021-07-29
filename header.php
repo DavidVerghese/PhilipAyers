@@ -19,13 +19,14 @@
   </div>
 </div>
 <div class="attachment">
-</div>
-
-  <?php wp_nav_menu (
+<?php wp_nav_menu (
     array(
       'theme_location' => 'top-menu'
     )
   );?>
+</div>
+
+  
 </header>
 
 <body <?php body_class();?>

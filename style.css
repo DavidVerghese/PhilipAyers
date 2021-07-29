@@ -11,27 +11,27 @@ body {
   align-items: center;
   margin: 0px;
 
-    color: #2d180a;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 100%;
+  color: #2d180a;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 100%;
 }
 
 img {
   margin: 10px;
 }
 
-
 .most-viewed img {
   width: 128px;
-} 
+}
 .homepage {
   width: 460px;
 }
+
 .website-title {
   display: flex;
   align-items: center;
   width: 103%;
-  margin-left:10px;
+  margin-left: 10px;
 }
 .website-title a {
   padding: 15px;
@@ -49,17 +49,13 @@ img {
   margin: 4px;
 }
 
-.title {
-  font-size: 1em; 
-}
-.paintinginfo-sub {
-  color: #999;
-}
+
+
 .copyright {
   color: #ccc;
 }
 .nav {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -77,8 +73,83 @@ img {
 }
 .featured-image img {
   padding: 15px;
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* about page: */
+#about {
+  margin: 0 auto;
+    max-width: 492px;
+    padding: 15px;
+}
+
+#about img{
+  padding: 15px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: 256px;
+  width: 100%;
+}
+#about strong {
+  padding: 15px;
+    color: #a14137;
+    font: italic 600 1em/1.125 "Source Sans Pro", sans-serif;
+}
+#about ul {
+	list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+#about li {
+	padding: 15px;
+    padding-top: 0;
+}
+#about em {
+  color: #d58b83;
+}
+#about p {
+  padding: 15px;
+}
+
+
+/* frontpage: */
+
+.frontpage p{
+  font-size: 1em;
+}
+.frontpage em {
+  color: #999;
+}
+/* galleries: */
+#gallery {
+  margin: 0 auto;
+    max-width: 492px;
+    padding: 15px;
+}
+#gallery ul{
+  width: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  overflow: auto;
+}
+  
+#gallery ul li{
+	list-style: none;
+	padding: 15px;
+	float: left;
+}
+#gallery ul li img {
+  /* !important overides element.style */
+  width: 128px !important;
+ height: 128px;
+ object-fit: cover;
 }
