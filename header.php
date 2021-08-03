@@ -6,6 +6,7 @@
   
 </head>
 
+
 <header>
 
 <div class="website-title">
@@ -19,15 +20,18 @@
   </div>
 </div>
 <div class="attachment">
+  <div id="menu">
 <?php wp_nav_menu (
     array(
       'theme_location' => 'top-menu'
     )
   );?>
+  </div>
 </div>
 
   
 </header>
+
 
 <body <?php body_class();?>
 

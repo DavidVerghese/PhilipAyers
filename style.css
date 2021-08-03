@@ -79,6 +79,26 @@ img {
   width: 100%;
 }
 
+/* menu */
+
+#menu {
+  display: none;
+}
+#menu div ul li {
+	list-style: none;
+}
+#menu div ul li a{
+  padding: 5px;
+  border-radius: 15px;
+  color: #a14137;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+#page-template-default h2 {
+	font: small-caps 1em/1.125 "Source Sans Pro", sans-serif;
+}
+
 /* about page: */
 #about {
   margin: 0 auto;
@@ -131,8 +151,11 @@ img {
     max-width: 492px;
     padding: 15px;
 }
+.page h2 {
+  font: small-caps 1em/1.125 "Source Sans Pro", sans-serif;
+}
 #gallery ul{
-  width: 100vh;
+  width: 50vh;
 	display: flex;
 	flex-wrap: wrap;
   list-style: none;
@@ -153,3 +176,4 @@ img {
  height: 128px;
  object-fit: cover;
 }
+

@@ -6,7 +6,7 @@ let displayMenu = false;
 let menu = document.createElement("ul");
 menu.setAttribute("class", "nav");
 menu.style.display = "none";
-console.log(attachment);
+console.log("hi", attachment);
 
 function createLink(a, b) {
   let li = document.createElement("li");
@@ -40,7 +40,9 @@ createLink("#", "(Alternate Groupings) Urban Landscapes/Interiors & Cutouts 1980
 
 attachment.append(menu);
 
-hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? menu.style.display = "flex" : menu.style.display = "none";});
+let nav = document.querySelector("#menu");
+
+hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";});
 
 let mostViewedDiv = document.querySelector(".most-viewed");
 let featuredImageDiv = document.querySelector(".featured-image");
