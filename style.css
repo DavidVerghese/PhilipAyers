@@ -145,15 +145,31 @@ img {
 .frontpage em {
   color: #999;
 }
-/* galleries: */
-#gallery {
-  margin: 0 auto;
-    max-width: 492px;
-    padding: 15px;
+#category img{
+  width: 200px;
 }
+#category {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
 .page h2 {
   font: small-caps 1em/1.125 "Source Sans Pro", sans-serif;
 }
+#post {
+  font: small-caps 1em/1.125 "Source Sans Pro", sans-serif;
+}
+
+/* galleries: */
+
+#gallery {
+  margin: 0 auto;
+  max-width: 492px;
+  padding: 15px;
+  
+  }
+
 #gallery ul{
   width: 50vh;
 	display: flex;

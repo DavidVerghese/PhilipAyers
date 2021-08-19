@@ -12,11 +12,14 @@
 </div>
 
 <div class="frontpage">
-<?php if (have_posts()) : while(have_posts()) : the_post();?>
-    <?php the_content();?>
+<b><p><span class="title">Factory,</span> 2015-17</p></b>
 
-<?php endwhile; endif; ?>
-</div> 
+<i><p>Oil on panel, 30 x 30 in.</p></i>
+<p></p>
+
+<p>(Framed 38”x 45”)</p>
+
+</div>
 
 <div class="most-viewed">
 </div>
