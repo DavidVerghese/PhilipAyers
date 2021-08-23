@@ -13,8 +13,5 @@
 <?php endwhile; endif; ?>
 </div> 
 
-<script>
-  console.log(document.querySelector(".page"))
-  </script>
 
 <?php get_footer();?> 
