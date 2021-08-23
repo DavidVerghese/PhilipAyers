@@ -15,7 +15,3 @@
 
 <?php get_footer();?> 
 
-<script>
-    console.log(document.querySelectorAll("#about p")[2].innerText);
-    console.log("hi");
-    </script>
