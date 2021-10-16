@@ -33,3 +33,9 @@ register_nav_menus(
 
   add_image_size('smallest',300,300,true);  
   add_image_size('largest',800,800,true);
+
+function load_font() {
+    wp_enqueue_style( 'font', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+}
+
+add_action( 'wp_enqueue_scripts', 'load_font' );

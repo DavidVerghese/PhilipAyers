@@ -10,9 +10,7 @@
 <header>
 
 <div class="website-title">
-  <h1>
     <a href="/wp-demo-tuts">Philip Ayers</a>
-  </h1>
   <div class="hamburger-menu">
     <hr>
     <hr>
