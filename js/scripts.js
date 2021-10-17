@@ -42,9 +42,10 @@ attachment.append(menu);
 
 let nav = document.querySelector("#menu");
 
-hamburgerMenu.addEventListener("click", function (e) {
-    displayMenu = !displayMenu;
-    displayMenu ? nav.style.display = "block" : nav.style.display = "none";
+jQuery(document).ready(function ($) {
+  $('.hamburger-menu').click(function () {
+    $(".menu").slideToggle();
+  });
 });
 
 let mostViewedDiv = document.querySelector(".most-viewed");

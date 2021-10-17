@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', 'load_stylesheets');
 
 function loadjs() 
 {
-  wp_register_script('customjs',get_template_directory_uri() . '/js/scripts.js', '', 1, true);
+  wp_register_script('customjs', get_template_directory_uri() . '/js/scripts.js', ['jquery'], 1, true);
   wp_enqueue_script('customjs');
 }
 

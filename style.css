@@ -78,7 +78,7 @@ img {
 
 /* menu */
 
-#menu {
+.menu {
   display: none;
 }
 #menu ul {
