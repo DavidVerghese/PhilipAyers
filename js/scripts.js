@@ -42,7 +42,10 @@ attachment.append(menu);
 
 let nav = document.querySelector("#menu");
 
-hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";});
+hamburgerMenu.addEventListener("click", function (e) {
+    displayMenu = !displayMenu;
+    displayMenu ? nav.style.display = "flex" : nav.style.display = "none";
+});
 
 let mostViewedDiv = document.querySelector(".most-viewed");
 let featuredImageDiv = document.querySelector(".featured-image");
