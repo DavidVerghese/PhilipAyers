@@ -44,7 +44,7 @@ let nav = document.querySelector("#menu");
 
 hamburgerMenu.addEventListener("click", function (e) {
     displayMenu = !displayMenu;
-    displayMenu ? nav.style.display = "flex" : nav.style.display = "none";
+    displayMenu ? nav.style.display = "block" : nav.style.display = "none";
 });
 
 let mostViewedDiv = document.querySelector(".most-viewed");

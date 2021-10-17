@@ -24,7 +24,10 @@ img {
 .website-title {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.attachment {
+  padding-bottom: 15px;
 }
 .website-title a {
   text-decoration: none;
@@ -78,11 +81,15 @@ img {
 #menu {
   display: none;
 }
+#menu ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
 #menu div ul li {
 	list-style: none;
 }
-#menu div ul li a{
-  padding: 5px;
+#menu div ul li a {
+  padding: 15px 0;
   border-radius: 15px;
   color: #a14137;
   display: block;
