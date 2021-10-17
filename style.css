@@ -24,6 +24,7 @@ img {
 .website-title {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .website-title a {
   text-decoration: none;
