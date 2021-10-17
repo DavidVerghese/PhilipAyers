@@ -52,11 +52,6 @@ img {
 .copyright {
   color: #ccc;
 }
-.nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .nav-link a {
   padding: 5px;
   border-radius: 15px;
