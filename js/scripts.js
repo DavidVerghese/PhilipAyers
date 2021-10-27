@@ -6,7 +6,6 @@ let displayMenu = false;
 let menu = document.createElement("ul");
 menu.setAttribute("class", "nav");
 menu.style.display = "none";
-console.log("hi", attachment);
 
 function createLink(a, b) {
   let li = document.createElement("li");
