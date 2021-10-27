@@ -6,7 +6,6 @@ let displayMenu = false;
 let menu = document.createElement("ul");
 menu.setAttribute("class", "nav");
 menu.style.display = "none";
-console.log("hi", attachment);
 
 function createLink(a, b) {
   let li = document.createElement("li");
@@ -42,7 +41,19 @@ attachment.append(menu);
 
 let nav = document.querySelector("#menu");
 
-hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";});
+// this display items in menu with slight delay 
+let menuDiv = document.querySelectorAll('#menu .menu-top-menu-container #menu-top-menu li');
+function hide(element){
+  element.style.display = 'block';
+}
+function hideWithDelay(){
+  for (let i=0;i<menuDiv.length;i++){
+  setTimeout(()=>{hide(menuDiv[i])},i*10);
+}
+}
+
+
+hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";hideWithDelay()});
 
 let mostViewedDiv = document.querySelector(".most-viewed");
 let featuredImageDiv = document.querySelector(".featured-image");

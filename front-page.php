@@ -1,7 +1,6 @@
 <?php get_header();?>
 
 
-
 <div class="homepage">
 
 <div class="picture">
@@ -24,7 +23,7 @@
 <div class="most-viewed">
 </div>
 </div>
-<p class="copyright">Philip Ayers © 2021 | Login</p>
+
 </div>
 
 <?php get_footer();?> 
