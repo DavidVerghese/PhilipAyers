@@ -59,8 +59,8 @@ function show(element){
   element.style.display = 'block';
 }
 function hideWithDelay(){
-  for (let i=0;i<menuDiv.length;i++){
-  setTimeout(()=>{show(menuDiv[i])},i*50);
+  for (let i=0;i<listItems.length;i++){
+  setTimeout(()=>{show(listItems[i])},i*50);
 }
 }
 
