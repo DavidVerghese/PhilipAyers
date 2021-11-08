@@ -13,10 +13,16 @@ body {
   font-size: 100%;
 }
 
+.homepage {
+  margin: 0 auto;
+    max-width: 492px;
+    padding: 15px;
+}
 .most-viewed {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+  overflow: auto;
 }
 
 .most-viewed img {
