@@ -46,6 +46,13 @@ attachment.append(menu);
 let nav = document.querySelector("#menu");
 
 
+jQuery(document).ready(function ($) {
+  $('.hamburger-menu').click(function () {
+    $(".menu").slideToggle();
+  });
+});
+
+
 
 let listItems = document.querySelectorAll('#menu .menu-top-menu-container #menu-top-menu li');
 function show(element){

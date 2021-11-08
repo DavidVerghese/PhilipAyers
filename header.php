@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+      <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head();?>
   
 </head>
@@ -10,9 +10,7 @@
 <header>
 
 <div class="website-title">
-  <h1>
     <a href="/wp-demo-tuts">Philip Ayers</a>
-  </h1>
   <div class="hamburger-menu">
     <hr>
     <hr>
@@ -34,5 +32,5 @@
 </header>
 
 
-<body <?php body_class();?>
+<body <?php body_class();?>>
 
