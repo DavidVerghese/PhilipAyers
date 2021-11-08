@@ -27,6 +27,8 @@ body {
 
 .most-viewed img {
   width: 128px;
+  margin: 15px; 
+  float: left; 
 }
 
 .website-title {
