@@ -2,7 +2,11 @@
 
 let hamburgerMenu = document.querySelector(".hamburger-menu");
 let attachment = document.querySelector(".attachment");
+
+
 let displayMenu = false;
+
+
 let menu = document.createElement("ul");
 menu.setAttribute("class", "nav");
 menu.style.display = "none";
