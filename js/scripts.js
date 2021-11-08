@@ -2,7 +2,11 @@
 
 let hamburgerMenu = document.querySelector(".hamburger-menu");
 let attachment = document.querySelector(".attachment");
+
+
 let displayMenu = false;
+
+
 let menu = document.createElement("ul");
 menu.setAttribute("class", "nav");
 menu.style.display = "none";
@@ -41,17 +45,17 @@ attachment.append(menu);
 
 let nav = document.querySelector("#menu");
 
-// this display items in menu with slight delay 
-let menuDiv = document.querySelectorAll('#menu .menu-top-menu-container #menu-top-menu li');
-function hide(element){
+
+
+let listItems = document.querySelectorAll('#menu .menu-top-menu-container #menu-top-menu li');
+function show(element){
   element.style.display = 'block';
 }
 function hideWithDelay(){
   for (let i=0;i<menuDiv.length;i++){
-  setTimeout(()=>{hide(menuDiv[i])},i*10);
+  setTimeout(()=>{show(menuDiv[i])},i*50);
 }
 }
-
 
 hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";hideWithDelay()});
 
