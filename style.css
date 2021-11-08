@@ -60,7 +60,7 @@ body {
   padding: 5px;
   border-radius: 15px;
   color: #a14137;
-  display: block;
+  display: none;
   text-align: center;
   text-decoration: none;
 }
@@ -86,6 +86,7 @@ body {
 }
 #menu div ul li {
 	list-style: none;
+  display: none;
 }
 #menu div ul li a {
   padding: 15px 0;
