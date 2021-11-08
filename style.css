@@ -13,7 +13,12 @@ body {
   font-size: 100%;
 }
 
-.homepage {
+/* header {
+  margin: 0 auto;
+    max-width: 492px;
+    padding: 15px;
+} */
+.container {
   margin: 0 auto;
     max-width: 492px;
 }
