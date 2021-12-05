@@ -21,6 +21,7 @@ body {
 .container {
   margin: 0 auto;
     max-width: 492px;
+  padding: 0 /* Override Bootstrap */
 }
 .most-viewed {
   display: grid;
