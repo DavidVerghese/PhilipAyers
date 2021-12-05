@@ -16,7 +16,6 @@ body {
 .homepage {
   margin: 0 auto;
     max-width: 492px;
-    padding: 15px;
 }
 .most-viewed {
   display: grid;
