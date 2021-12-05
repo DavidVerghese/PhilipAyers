@@ -26,6 +26,8 @@
 
 </div>
 
+<p class="copyright">Philip Ayers © 2021</p>
+
 </div>
 
 <?php get_footer();?>

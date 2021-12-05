@@ -45,11 +45,26 @@ attachment.append(menu);
 
 let nav = document.querySelector("#menu");
 
+
 jQuery(document).ready(function ($) {
   $('.hamburger-menu').click(function () {
     $(".menu").slideToggle();
   });
 });
+
+
+
+let listItems = document.querySelectorAll('#menu .menu-top-menu-container #menu-top-menu li');
+function show(element){
+  element.style.display = 'block';
+}
+function hideWithDelay(){
+  for (let i=0;i<listItems.length;i++){
+  setTimeout(()=>{show(listItems[i])},i*50);
+}
+}
+
+hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";hideWithDelay()});
 
 let mostViewedDiv = document.querySelector(".most-viewed");
 let featuredImageDiv = document.querySelector(".featured-image");
