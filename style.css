@@ -23,20 +23,7 @@ body {
     max-width: 492px;
   padding: 0 /* Override Bootstrap */
 }
-.most-viewed {
-   /* display: grid; 
-  grid-template-columns: 0.1fr 0.1fr;
-  grid-gap: 15px; */
-  display: flex;
-  flex-wrap: wrap;
-  overflow: auto; 
-}
 
-.most-viewed img {
-  width: 128px;
-  margin: 10px; 
-  float: left; 
-}
 
 .website-title {
   display: flex;

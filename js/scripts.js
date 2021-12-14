@@ -66,14 +66,9 @@ function hideWithDelay(){
 
 hamburgerMenu.addEventListener("click", function (e) { displayMenu = !displayMenu; displayMenu ? nav.style.display = "flex" : nav.style.display = "none";hideWithDelay()});
 
-let mostViewedDiv = document.querySelector(".most-viewed");
 let featuredImageDiv = document.querySelector(".featured-image");
 
-function createPicture(a) {
-  let pic = document.createElement("img");
-  pic.setAttribute("src", a);
-  mostViewedDiv.append(pic);
-};
+
 
 function createFeaturedImage(a) {
   let pic = document.createElement("img");
@@ -106,7 +101,5 @@ function shuffle(list) {
 
 shuffle(imageAddresses);
 createFeaturedImage(imageAddresses[0]);
-imageAddresses3 = [imageAddresses[1], imageAddresses[2], imageAddresses[3]];
-imageAddresses3.map((index)=>{createPicture(index)})
 
 
