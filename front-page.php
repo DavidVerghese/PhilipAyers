@@ -21,8 +21,7 @@
 
 </div>
 
-<div class="most-viewed">
-</div>
+
 
 </div>
 
