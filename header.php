@@ -3,7 +3,8 @@
   <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head();?>
-  
+  <title>Philip Ayers</title>
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon-96x96.png">
 </head>
 
 <div class="container">
